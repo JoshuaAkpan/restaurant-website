@@ -37,11 +37,13 @@ ul{
     /* background: var(--russet-clr); */
     z-index: 1000;
     background-color: whitesmoke;
+    color: var(--grain-yellow);
 }
 
 @media (max-width: 960px) {
     .navbar-section {
         background: var(--russet-clr);
+    
     }
 }
 
@@ -103,7 +105,7 @@ ul{
 }
 
 .menu-nav__link:hover {
-    color: var(--russet-clr);
+    color: var(--light-khaki);
     transition: 0.6s ease;
 }
 
